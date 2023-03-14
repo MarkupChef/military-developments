@@ -1,0 +1,676 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>Home | MX-RAY</title>
+</head>
+
+<style>
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(270deg, #080809 1.18%, #172027 53.16%, #060606 100%);
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+</style>
+
+<body class="home">
+
+<div id="wrapper"><!-- wrapper -->
+  <div class="loading">Loading...</div>
+
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__name"><span>Projects</span></div>
+      <a href="/" class="logo header__logo">
+        <strong>
+          <img src="img/logo.svg" alt="MX-RAY">
+        </strong>
+      </a>
+
+      <div class="nav nav-drop header__nav">
+        <div class="nav-drop__inner">
+          <ul class="nav__list">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="language" class="language header__language">EN</div>
+      <ul id="languageList" class="language-list header__language-list">
+        <li><a href="#">RU</a></li>
+        <li><a href="#">UA</a></li>
+        <li><a href="#">EN</a></li>
+        <li><a href="#">ZH</a></li>
+        <li><a href="#">DE</a></li>
+        <li><a href="#">FR</a></li>
+        <li><a href="#">ES</a></li>
+      </ul>
+
+      <button class="hamburger hamburger--spin header__hamburger hamburger-js" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+
+
+
+<main>
+  <section class="intro">
+    <div class="container intro__container">
+      <div class="intro-decor intro__decor">
+        <span class="intro-decor-line intro-decor__line"></span>
+        <span class="intro-decor-line intro-decor__line"></span>
+        <span class="intro-decor-line intro-decor__line"></span>
+        <span class="intro-decor-line intro-decor__line"></span>
+      </div>
+
+      <div class="intro__content">
+        <div class="intro__des">
+          <h1 class="intro__title intro-title">
+            <span class="intro-title__text">Every Idea<br>Begets<br>Thought.</span>
+          </h1>
+          <div class="intro__subtitle intro-subtitle">
+            <div class="intro-subtitle__inner">
+              <span class="color-darkblue">We bring together</span> the best<br>thoughts <span class="color-darkblue">to</span> realize<br><span class="pl-1rem">our<span class="color-darkblue"> ideas</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="intro__img">
+          <div class="swiper intro-swiper-img">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="intro__img-wrap" id="zeveles">
+                  <img src="img/Heli.png" alt="zeveles">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="intro__img-wrap" id="trochilidae">
+                  <img src="img/Nano.png" alt="trochilidae">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="intro__img-wrap" id="mf3drs">
+                  <img src="img/Radar.png" alt="MF3DRS">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="intro__img-wrap" id="vku">
+                  <img src="img/VKU.png" alt="vku">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="intro__swiper">
+          <div class="intro-swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="intro-about-project">
+                  <div class="intro-about-project__body">
+                    <small class="intro-about-project__num">01</small>
+                    <div class="intro-about-project__title">Zeveles</div>
+                    <div class="intro-about-project__des">
+                      <p>Development of UAVs with unique capabilities and minimum necessary training and operator training</p>
+                    </div>
+                    <a href="project.html" class="button intro-about-project__btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="intro-about-project">
+                  <div class="intro-about-project__body">
+                    <small class="intro-about-project__num">02</small>
+                    <div class="intro-about-project__title">Trochilidae</div>
+                    <div class="intro-about-project__des">
+                      <p>Personal, intelligence complex. Extremely light, almost silent.</p>
+                    </div>
+                    <a href="project.html" class="button intro-about-project__btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="intro-about-project">
+                  <div class="intro-about-project__body">
+                    <small class="intro-about-project__num">03</small>
+                    <div class="intro-about-project__title">mf3drs</div>
+                    <div class="intro-about-project__des">
+                      <p>Multifunctional 3D radar to detect aerial targets.</p>
+                    </div>
+                    <a href="project.html" class="button intro-about-project__btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="intro-about-project">
+                  <div class="intro-about-project__body">
+                    <small class="intro-about-project__num">04</small>
+                    <div class="intro-about-project__title">VKU</div>
+                    <div class="intro-about-project__des">
+                      <p>Multifunctional 3D radar to detect aerial targets.</p>
+                    </div>
+                    <a href="project.html" class="button intro-about-project__btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="steps">
+    <div class="container text-center">
+      <h2 class="title title--steps steps__title">What da we do?</h2>
+    </div>
+
+    <div class="container steps__container">
+      <div class="steps__row step-1">
+        <div class="steps__col">
+          <div class="step-des text-center">
+            <div class="step-des__title">Idea</div>
+            <div class="step-des__text">
+              <p>We bring the task to the level of<br>engineering development.</p>
+            </div>
+          </div>
+          <div class="step-img">
+            <img src="img/question_mark.svg" class="step-img__animate" alt="Question icon.">
+            <img src="img/step-img-1.svg" alt="Platform for question icon.">
+
+            <svg class="step-svg-line" width="273" height="198" viewBox="0 0 273 198" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M228 0.5L266.689 22.918C273.31 26.7547 273.344 36.3034 266.75 40.187L0.5 197" stroke="#0050A2"/>
+            </svg>
+
+            <div class="step-line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="steps__row step-2">
+        <div class="steps__col">
+          <div class="step-img">
+            <img src="img/exclamation_mark.svg" class="step-img__animate" alt="Exclamation icon.">
+            <img src="img/step-img-2.svg" alt="Platform for exclamation icon.">
+
+            <!-- decor -->
+            <div class="step-2__circle-small step-decor-circle"></div>
+            <div class="step-2__circle step-decor-circle"></div>
+            <div class="step-2__circle-blue step-decor-circle"></div>
+
+            <div class="step-line"></div>
+          </div>
+        </div>
+        <div class="steps__col">
+          <div class="step-des">
+            <div class="step-des__title">Conceptual<br>Design</div>
+            <div class="step-des__text">
+              <p>We reveal the power of the idea, not the material.</p>
+            </div>
+          </div>
+
+          <div class="step-des">
+            <div class="step-des__title">Visualization</div>
+            <div class="step-des__text">
+              <p>We get the primary view<br>of the final product<br>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="steps__row step-3">
+        <div class="steps__col">
+          <div class="step-img">
+            <img src="img/gear.svg" class="step-img__animate" alt="Gear icon.">
+            <img src="img/step-img-3.svg" alt="Platform for gear icon.">
+
+            <div class="step-line"></div>
+          </div>
+        </div>
+        <div class="steps__col">
+          <div class="step-des">
+            <div class="step-3__title-decor"></div>
+
+            <div class="step-des__title">Mechanical<br>Design</div>
+            <div class="step-des__text">
+              <p>We create a parametric 3D-model<br>of the product, ready for transfer<br>to production.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="steps__row step-4">
+        <div class="steps__col">
+          <div class="step-img">
+            <img src="img/electronic.svg" class="step-img__animate" alt="Electronic icon.">
+            <img src="img/step-img-4.svg" alt="Platform for electronic icon">
+
+            <svg class="step-svg-line" width="334" height="254" viewBox="0 0 334 254" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.00003 5.80487e-05L1.00004 64.1025C1.00004 67.742 2.97736 71.0941 6.16267 72.8547L333 253.5" stroke="#0050A2"/>
+            </svg>
+
+            <div class="step-line"></div>
+          </div>
+        </div>
+        <div class="steps__col">
+          <div class="step-4__des-decor"></div>
+          <div class="step-des">
+            <div class="step-des__title">Electronics development</div>
+            <div class="step-des__text">
+              <p>Let the electrons run only<br>
+                in the right direction.
+              </p>
+            </div>
+          </div>
+          <div class="step-des">
+            <div class="step-des__title">IT</div>
+            <div class="step-des__text">
+              <p>Collect, store, process<br>
+                and transmit any data.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="steps__row step-5">
+        <div class="steps__col">
+          <div class="step-img">
+            <img src="img/design.svg" class="step-img__animate" alt="Monitor icon.">
+            <img src="img/step-img-5.svg" alt="Prototype of monitor.">
+
+            <svg class="step-svg-line" width="154" height="171" viewBox="0 0 154 171" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M153.5 2.6664e-05L153.5 25.1927C153.5 28.7838 151.574 32.0992 148.455 33.8787L6.04476 115.122C2.92554 116.901 0.999979 120.217 0.99998 123.808L0.999981 170.882" stroke="#0050A2"/>
+            </svg>
+
+            <div class="step-line"></div>
+          </div>
+        </div>
+        <div class="steps__col step-5__des-decor">
+          <div class="step-des">
+            <div class="step-des__title">Prototyping</div>
+            <div class="step-des__text">
+              <p>We create from the first CNC prototypes<br>to the last tulling iteration.</p>
+            </div>
+          </div>
+          <div class="step-des">
+            <div class="step-des__title">Industrial<br>Design</div>
+            <div class="step-des__text">
+              <p>We make the material work on<br>facets of possibility.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="steps__row step-6">
+        <div class="steps__col">
+          <div class="step-6__decor"></div>
+          <div class="step-img">
+            <img src="img/person.svg" class="step-img__animate" alt="Person icon.">
+            <img src="img/cube.svg" class="step-img__animate-cube" alt="Cube which appears on the conveyor.">
+            <img src="img/step-img-6.svg" alt="Conveyor icon.">
+          </div>
+          <div class="step-des">
+            <div class="step-des__title">Maintenance<br>of serial production</div>
+            <div class="step-des__text">
+              <p>We bring the task to the level of<br>engineering development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients" class="partners">
+  <div class="container partners__container">
+    <h2 class="title title--partners partners__title">Our partners</h2>
+    <ul class="partners__list">
+      <li>
+        <picture class="partners__img">
+  <source srcset="img/2x/HideezLogo-Horizontal.png" media="(min-width: 2560px)">
+  <source srcset="img/4x/HideezLogo-Horizontal.png" media="(min-width: 5120px)">
+  <source srcset="img/HideezLogo-Horizontal.png">
+  <img src="img/4x/HideezLogo-Horizontal.png" alt="Hideez logo">
+</picture>
+      </li>
+      <li>
+        <picture class="partners__img">
+  <source srcset="img/2x/IPI.png" media="(min-width: 2560px)">
+  <source srcset="img/4x/IPI.png" media="(min-width: 5120px)">
+  <source srcset="img/IPI.png">
+  <img src="img/4x/IPI.png" alt="IPI logo">
+</picture>
+      </li>
+      <li>
+        <picture class="partners__img">
+  <source srcset="img/2x/Oboronprom.png" media="(min-width: 2560px)">
+  <source srcset="img/4x/Oboronprom.png" media="(min-width: 5120px)">
+  <source srcset="img/Oboronprom.png">
+  <img src="img/4x/Oboronprom.png" alt="Oboronprom logo">
+</picture>
+      </li>
+      <li>
+        <picture class="partners__img">
+  <source srcset="img/2x/Tweed.png" media="(min-width: 2560px)">
+  <source srcset="img/4x/Tweed.png" media="(min-width: 5120px)">
+  <source srcset="img/Tweed.png">
+  <img src="img/4x/Tweed.png" alt="Tweed logo">
+</picture>
+      </li>
+      <li>
+        <picture class="partners__img">
+  <source srcset="img/2x/Eco.png" media="(min-width: 2560px)">
+  <source srcset="img/4x/Eco.png" media="(min-width: 5120px)">
+  <source srcset="img/Eco.png">
+  <img src="img/4x/Eco.png" alt="Eco-freeze logo">
+</picture>
+      </li>
+      <li>
+        <picture class="partners__img">
+  <source srcset="img/2x/fizics.png" media="(min-width: 2560px)">
+  <source srcset="img/4x/fizics.png" media="(min-width: 5120px)">
+  <source srcset="img/fizics.png">
+  <img src="img/4x/fizics.png" alt="Center of Technical Physics logo">
+</picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+  <section id="team" class="team">
+  <div class="container team__container">
+    <h2 class="title title--team team__title">Team</h2>
+    <ul class="team__list">
+      <li>
+        <figure class="team-item">
+          <div class="team-item__img">
+            <img loading="lazy" src="img/All-06.png" alt="Photo of team member.">
+          </div>
+          <figcaption>
+            <div class="team-item__title">Alexander<br>Sergeevich</div>
+            <p>IT Director</p>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="team-item">
+          <picture class="team-item__img">
+            <source srcset="img/All-02.png" media="(min-width: 2560px)">
+            <source srcset="img/All-02.png" media="(min-width: 5120px)">
+            <source srcset="img/All-02.png">
+            <img src="img/All-02.png" alt="Photo of team member.">
+          </picture>
+          <figcaption>
+            <div class="team-item__title">Alexander<br>Nikolaevich</div>
+            <p>CFO</p>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="team-item">
+          <picture class="team-item__img">
+            <source srcset="img/All-07.png" media="(min-width: 2560px)">
+            <source srcset="img/All-07.png" media="(min-width: 5120px)">
+            <source srcset="img/All-07.png">
+            <img src="img/All-07.png" alt="Photo of team member.">
+          </picture>
+          <figcaption>
+            <div class="team-item__title">Alexander<br>Pavlovich</div>
+            <p>Head of Prototyping</p>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="team-item">
+          <picture class="team-item__img">
+            <source srcset="img/All-04.png" media="(min-width: 2560px)">
+            <source srcset="img/All-04.png" media="(min-width: 5120px)">
+            <source srcset="img/All-04.png">
+            <img src="img/All-04.png" alt="Photo of team member.">
+          </picture>
+          <figcaption>
+            <div class="team-item__title">Alexander<br>Sergeevich</div>
+            <p>Chief engineer</p>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="team-item">
+          <picture class="team-item__img">
+            <source srcset="img/All-08.png" media="(min-width: 2560px)">
+            <source srcset="img/All-08.png" media="(min-width: 5120px)">
+            <source srcset="img/All-08.png">
+            <img src="img/All-08.png" alt="Photo of team member.">
+          </picture>
+          <figcaption>
+            <div class="team-item__title">Alexei<br>Nikolayevich</div>
+            <p>Head of Development Department</p>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="team-item">
+          <picture class="team-item__img">
+            <source srcset="img/All-10.png" media="(min-width: 2560px)">
+            <source srcset="img/All-10.png" media="(min-width: 5120px)">
+            <source srcset="img/All-10.png">
+            <img src="img/All-10.png" alt="Photo of team member.">
+          </picture>
+          <figcaption>
+            <div class="team-item__title">Artyom<br>Vladimirovich</div>
+            <p>Embedded Systems Specialist</p>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="team-item">
+          <picture class="team-item__img">
+            <source srcset="img/All-11.png" media="(min-width: 2560px)">
+            <source srcset="img/All-11.png" media="(min-width: 5120px)">
+            <source srcset="img/All-11.png">
+            <img src="img/All-11.png" alt="Photo of team member.">
+          </picture>
+          <figcaption>
+            <div class="team-item__title">Viktor<br>Dmitrievich</div>
+            <p>Lead FPGA Engineer</p>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="team-item">
+          <picture class="team-item__img">
+            <source srcset="img/All-03.png" media="(min-width: 2560px)">
+            <source srcset="img/All-03.png" media="(min-width: 5120px)">
+            <source srcset="img/All-03.png">
+            <img src="img/All-03.png" alt="Photo of team member.">
+          </picture>
+          <figcaption>
+            <div class="team-item__title">Ludmila<br>Vladimirovna</div>
+            <p>Chief Accountant</p>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="team__des">
+      <p>A rotating contact device designed for the uninterrupted transmission of constant, variable and pulse electrical signals in a wide range of frequencies and capacities between a source and a receiver located in mutually rotating parts of an object.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="popup-projects">
+  <div class="container popup-projects__container">
+
+    <div class="popup-projects__body">
+      <div class="popup-projects-swiper popup-projects__swiper">
+        <div id="popupProjectsSwiper" class="swiper">
+          <div class="swiper-wrapper">
+            <a href="project.html" class="swiper-slide">
+              <figure class="popup-project" id="zeveles">
+                <figcaption class="popup-project__title">Zeveles</figcaption>
+                <div class="popup-project__img">
+                  <img src="img/Heli_HiRes_tablet.png" alt="zeveles">
+                </div>
+              </figure>
+            </a>
+            <a href="project.html" class="swiper-slide">
+              <figure class="popup-project" id="trochilidae">
+                <figcaption class="popup-project__title">Trochilidae</figcaption>
+                <div class="popup-project__img">
+                  <img src="img/Nano.png" alt="Trochilidae">
+                </div>
+              </figure>
+            </a>
+            <a href="project.html" class="swiper-slide">
+              <figure class="popup-project" id="mf3drs">
+                <figcaption class="popup-project__title">MF3DRS</figcaption>
+                <div class="popup-project__img">
+                  <img src="img/Radar.png" alt="MF3DRS">
+                </div>
+              </figure>
+            </a>
+            <a href="project.html" class="swiper-slide">
+              <figure class="popup-project" id="vku">
+                <figcaption class="popup-project__title">VKU</figcaption>
+                <div class="popup-project__img">
+                  <img src="img/VKU.png" alt="ВКУ">
+                </div>
+              </figure>
+            </a>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <footer class="popup-project-footer">
+        <div class="popup-project-des" data-index="0">
+          <div class="popup-project-des__body">
+            <div class="popup-project-des__title">Zeveles</div>
+            <div class="popup-project-des__content">
+              <p>Development of UAVs with unique capabilities and minimum necessary training and operator training</p>
+            </div>
+          </div>
+        </div>
+        <div class="popup-project-des" data-index="1">
+          <div class="popup-project-des__body">
+            <div class="popup-project-des__title">Trochilidae</div>
+            <div class="popup-project-des__content">
+              <p>Development of UAVs with unique capabilities and minimum necessary training and operator training</p>
+            </div>
+          </div>
+        </div>
+        <div class="popup-project-des" data-index="2">
+          <div class="popup-project-des__body">
+            <div class="popup-project-des__title">MF3DRS</div>
+            <div class="popup-project-des__content">
+              <p>Development of UAVs with unique capabilities and minimum necessary training and operator training</p>
+            </div>
+          </div>
+        </div>
+        <div class="popup-project-des" data-index="3">
+          <div class="popup-project-des__body">
+            <div class="popup-project-des__title">VKU</div>
+            <div class="popup-project-des__content">
+              <p>Development of UAVs with unique capabilities and minimum necessary training and operator training</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+
+
+
+    <footer id="contacts" class="footer">
+      <div class="container footer__container">
+        <div class="footer__logo">
+          <a href="/">
+            <strong><img src="img/logo.svg" alt="MX-RAY"></strong>
+          </a>
+        </div>
+        <div class="footer__body">
+          <div class="footer__col">
+            <ul class="footer__list footer-list">
+              <li><a href="https://goo.gl/maps/TtiGdxMxr5rzA5WSA" target="_blank">
+                <div class="footer-list__ico">
+                  <img loading="lazy" src="img/ukraine.svg" alt="USE flag">
+                </div>
+                <address>
+                  Country 02543 some City,<br>
+                  some Name Street, 37, <br>
+                  office 100
+                </address>
+              </a></li>
+              <li><a href="tel:+49 (012) 345 54 98"><i class="icon-phone"></i>phone/fax: +49 (012) 345 54 98</a></li>
+              <li><a href="someemail@mail.com"><i class="icon-letter"></i>someemail@mail.com</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <ul class="footer__list footer-list">
+              <li><a href="https://goo.gl/maps/amCQ9KrrdQPkiEJN8" target="_blank">
+                <div class="footer-list__ico">
+                  <img loading="lazy" src="img/united-states.svg" alt="USE flag">
+                </div>
+                <address>
+                  Bob Tazdolisky<br>
+                  Makrodate Inc.<br>
+                  West Name, MI 65478
+                </address>
+              </a></li>
+              <li><a href="tel:+1-456-233-3564"><i class="icon-phone"></i>+1-456-233-3564</a></li>
+              <li><a href="mailto:someemail@mail.com"><i class="icon-letter"></i>someemail@mail.com</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <ul class="footer__list footer-list">
+              <li><a href="https://goo.gl/maps/CKxKb4og4DhRQYEb8" target="_blank">
+                <div class="footer-list__ico">
+                  <img loading="lazy" src="img/united-arab-emirates.svg" alt="UAE flag">
+                </div>
+                <address>
+                  OFFICE-360 Abu Dhabi Island<br>
+                  Some Sector Property Number PRP5056<br>
+                  Plot Number C99_to_C341<br>
+                  A3 Some Building Unit<br>
+                  Number UNT3466533
+                </address>
+              </a></li>
+              <li><a href="tel:8905554356"><i class="icon-phone"></i>premise number 8905554356</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    </div> <!-- wrapper end -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/main.js"></script>
+  </body>
+</html>
